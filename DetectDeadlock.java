@@ -3,8 +3,9 @@ import java.util.ArrayList;
 /**
  * Created by Erfan Rahnemoon on 6/27/17.
  * 
- * detect deadlock Exactly in the same form and algorithm that the book explains with no Optimization
- * In fact, code with awful performance and scalability is worse
+ * detect deadlock Exactly in the same form and algorithm that the book
+ * (Database System Concepts by Avi Silberschatz, Henry F. Korth, and 
+ * S. Sudarshan) explains with no Optimization.
  */
 public class DetectDeadlock {
     private ArrayList<String> listOfAction ;
